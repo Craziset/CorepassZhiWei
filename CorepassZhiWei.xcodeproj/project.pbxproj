@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E04B7E1CA0F72A00651651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B7D1CA0F72A00651651 /* main.m */; };
+		C4E04B811CA0F72A00651651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B801CA0F72A00651651 /* AppDelegate.m */; };
+		C4E04B841CA0F72A00651651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B831CA0F72A00651651 /* ViewController.m */; };
+		C4E04B871CA0F72A00651651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04B851CA0F72A00651651 /* Main.storyboard */; };
+		C4E04B891CA0F72A00651651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E04B881CA0F72A00651651 /* Assets.xcassets */; };
+		C4E04B8C1CA0F72A00651651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */; };
+		C4E04B971CA0F72A00651651 /* CorepassZhiWeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B961CA0F72A00651651 /* CorepassZhiWeiTests.m */; };
+		C4E04BA21CA0F72A00651651 /* CorepassZhiWeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04BA11CA0F72A00651651 /* CorepassZhiWeiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4E04B931CA0F72A00651651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E04B711CA0F72900651651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E04B781CA0F72900651651;
+			remoteInfo = CorepassZhiWei;
+		};
+		C4E04B9E1CA0F72A00651651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4E04B711CA0F72900651651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E04B781CA0F72900651651;
+			remoteInfo = CorepassZhiWei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4E04B791CA0F72A00651651 /* CorepassZhiWei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorepassZhiWei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E04B7D1CA0F72A00651651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E04B7F1CA0F72A00651651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4E04B801CA0F72A00651651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4E04B821CA0F72A00651651 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4E04B831CA0F72A00651651 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4E04B861CA0F72A00651651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4E04B881CA0F72A00651651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4E04B8B1CA0F72A00651651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4E04B8D1CA0F72A00651651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E04B921CA0F72A00651651 /* CorepassZhiWeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorepassZhiWeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E04B961CA0F72A00651651 /* CorepassZhiWeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorepassZhiWeiTests.m; sourceTree = "<group>"; };
+		C4E04B981CA0F72A00651651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E04B9D1CA0F72A00651651 /* CorepassZhiWeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorepassZhiWeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E04BA11CA0F72A00651651 /* CorepassZhiWeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorepassZhiWeiUITests.m; sourceTree = "<group>"; };
+		C4E04BA31CA0F72A00651651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E04B761CA0F72900651651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B8F1CA0F72A00651651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B9A1CA0F72A00651651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E04B701CA0F72900651651 = {
+			isa = PBXGroup;
+			children = (
+				C4E04B7B1CA0F72A00651651 /* CorepassZhiWei */,
+				C4E04B951CA0F72A00651651 /* CorepassZhiWeiTests */,
+				C4E04BA01CA0F72A00651651 /* CorepassZhiWeiUITests */,
+				C4E04B7A1CA0F72A00651651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E04B7A1CA0F72A00651651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04B791CA0F72A00651651 /* CorepassZhiWei.app */,
+				C4E04B921CA0F72A00651651 /* CorepassZhiWeiTests.xctest */,
+				C4E04B9D1CA0F72A00651651 /* CorepassZhiWeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E04B7B1CA0F72A00651651 /* CorepassZhiWei */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04B7F1CA0F72A00651651 /* AppDelegate.h */,
+				C4E04B801CA0F72A00651651 /* AppDelegate.m */,
+				C4E04B821CA0F72A00651651 /* ViewController.h */,
+				C4E04B831CA0F72A00651651 /* ViewController.m */,
+				C4E04B851CA0F72A00651651 /* Main.storyboard */,
+				C4E04B881CA0F72A00651651 /* Assets.xcassets */,
+				C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */,
+				C4E04B8D1CA0F72A00651651 /* Info.plist */,
+				C4E04B7C1CA0F72A00651651 /* Supporting Files */,
+			);
+			path = CorepassZhiWei;
+			sourceTree = "<group>";
+		};
+		C4E04B7C1CA0F72A00651651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04B7D1CA0F72A00651651 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4E04B951CA0F72A00651651 /* CorepassZhiWeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04B961CA0F72A00651651 /* CorepassZhiWeiTests.m */,
+				C4E04B981CA0F72A00651651 /* Info.plist */,
+			);
+			path = CorepassZhiWeiTests;
+			sourceTree = "<group>";
+		};
+		C4E04BA01CA0F72A00651651 /* CorepassZhiWeiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04BA11CA0F72A00651651 /* CorepassZhiWeiUITests.m */,
+				C4E04BA31CA0F72A00651651 /* Info.plist */,
+			);
+			path = CorepassZhiWeiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E04B781CA0F72900651651 /* CorepassZhiWei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E04BA61CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWei" */;
+			buildPhases = (
+				C4E04B751CA0F72900651651 /* Sources */,
+				C4E04B761CA0F72900651651 /* Frameworks */,
+				C4E04B771CA0F72900651651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorepassZhiWei;
+			productName = CorepassZhiWei;
+			productReference = C4E04B791CA0F72A00651651 /* CorepassZhiWei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4E04B911CA0F72A00651651 /* CorepassZhiWeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E04BA91CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiTests" */;
+			buildPhases = (
+				C4E04B8E1CA0F72A00651651 /* Sources */,
+				C4E04B8F1CA0F72A00651651 /* Frameworks */,
+				C4E04B901CA0F72A00651651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E04B941CA0F72A00651651 /* PBXTargetDependency */,
+			);
+			name = CorepassZhiWeiTests;
+			productName = CorepassZhiWeiTests;
+			productReference = C4E04B921CA0F72A00651651 /* CorepassZhiWeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4E04B9C1CA0F72A00651651 /* CorepassZhiWeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E04BAC1CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiUITests" */;
+			buildPhases = (
+				C4E04B991CA0F72A00651651 /* Sources */,
+				C4E04B9A1CA0F72A00651651 /* Frameworks */,
+				C4E04B9B1CA0F72A00651651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E04B9F1CA0F72A00651651 /* PBXTargetDependency */,
+			);
+			name = CorepassZhiWeiUITests;
+			productName = CorepassZhiWeiUITests;
+			productReference = C4E04B9D1CA0F72A00651651 /* CorepassZhiWeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E04B711CA0F72900651651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YANG;
+				TargetAttributes = {
+					C4E04B781CA0F72900651651 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C4E04B911CA0F72A00651651 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C4E04B781CA0F72900651651;
+					};
+					C4E04B9C1CA0F72A00651651 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C4E04B781CA0F72900651651;
+					};
+				};
+			};
+			buildConfigurationList = C4E04B741CA0F72900651651 /* Build configuration list for PBXProject "CorepassZhiWei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4E04B701CA0F72900651651;
+			productRefGroup = C4E04B7A1CA0F72A00651651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E04B781CA0F72900651651 /* CorepassZhiWei */,
+				C4E04B911CA0F72A00651651 /* CorepassZhiWeiTests */,
+				C4E04B9C1CA0F72A00651651 /* CorepassZhiWeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4E04B771CA0F72900651651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E04B8C1CA0F72A00651651 /* LaunchScreen.storyboard in Resources */,
+				C4E04B891CA0F72A00651651 /* Assets.xcassets in Resources */,
+				C4E04B871CA0F72A00651651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B901CA0F72A00651651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B9B1CA0F72A00651651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E04B751CA0F72900651651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E04B841CA0F72A00651651 /* ViewController.m in Sources */,
+				C4E04B811CA0F72A00651651 /* AppDelegate.m in Sources */,
+				C4E04B7E1CA0F72A00651651 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B8E1CA0F72A00651651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E04B971CA0F72A00651651 /* CorepassZhiWeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E04B991CA0F72A00651651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E04BA21CA0F72A00651651 /* CorepassZhiWeiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4E04B941CA0F72A00651651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E04B781CA0F72900651651 /* CorepassZhiWei */;
+			targetProxy = C4E04B931CA0F72A00651651 /* PBXContainerItemProxy */;
+		};
+		C4E04B9F1CA0F72A00651651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4E04B781CA0F72900651651 /* CorepassZhiWei */;
+			targetProxy = C4E04B9E1CA0F72A00651651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4E04B851CA0F72A00651651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E04B861CA0F72A00651651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4E04B8B1CA0F72A00651651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4E04BA41CA0F72A00651651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4E04BA51CA0F72A00651651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4E04BA71CA0F72A00651651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorepassZhiWei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E04BA81CA0F72A00651651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CorepassZhiWei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4E04BAA1CA0F72A00651651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorepassZhiWeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorepassZhiWei.app/CorepassZhiWei";
+			};
+			name = Debug;
+		};
+		C4E04BAB1CA0F72A00651651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CorepassZhiWeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CorepassZhiWei.app/CorepassZhiWei";
+			};
+			name = Release;
+		};
+		C4E04BAD1CA0F72A00651651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorepassZhiWeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorepassZhiWei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4E04BAE1CA0F72A00651651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CorepassZhiWeiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CorepassZhiWei;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E04B741CA0F72900651651 /* Build configuration list for PBXProject "CorepassZhiWei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E04BA41CA0F72A00651651 /* Debug */,
+				C4E04BA51CA0F72A00651651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E04BA61CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E04BA71CA0F72A00651651 /* Debug */,
+				C4E04BA81CA0F72A00651651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E04BA91CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E04BAA1CA0F72A00651651 /* Debug */,
+				C4E04BAB1CA0F72A00651651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4E04BAC1CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E04BAD1CA0F72A00651651 /* Debug */,
+				C4E04BAE1CA0F72A00651651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E04B711CA0F72900651651 /* Project object */;
+}
