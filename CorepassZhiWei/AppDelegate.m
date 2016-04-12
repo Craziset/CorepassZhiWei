@@ -17,6 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    self.string1= @"string1";
+//    self.string2=self.string1;
+//    self.string1=nil;
+//    
+//    NSLog(@"string2 = %@",self.string2);
+    
+    NSMutableString *mStr=[NSMutableString stringWithFormat:@"abc"];
+    
+    self.string1=mStr;
+    self.string2=mStr;
+    
+    [mStr appendString:@"de"];
+    
+    NSLog(@"str1--%@,str2--%@",_string1,_string2);
+    
+    
     return YES;
 }
 

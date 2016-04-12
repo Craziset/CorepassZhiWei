@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40379A61CBC853A009F728A /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40379A51CBC853A009F728A /* MineTableViewController.m */; };
+		C40379A91CBC8643009F728A /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40379A81CBC8643009F728A /* FindTableViewController.m */; };
+		C40379AD1CBCA4B2009F728A /* MineViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C40379AC1CBCA4B2009F728A /* MineViewCollectionViewCell.m */; };
+		C40379B01CBCB5AB009F728A /* CollectionViewCellClick.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40379AF1CBCB5AB009F728A /* CollectionViewCellClick.storyboard */; };
+		C40379B31CBCB8F9009F728A /* MissionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40379B21CBCB8F9009F728A /* MissionTableViewController.m */; };
+		C40379B61CBCD911009F728A /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40379B51CBCD911009F728A /* HomeTableViewController.m */; };
+		C40379B81CBCF547009F728A /* Edit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40379B71CBCF547009F728A /* Edit.storyboard */; };
+		C440AF371CA2425A008ED3AF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C440AF361CA2425A008ED3AF /* Login.storyboard */; };
+		C4D396811CBCFF2B00B584B8 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D396801CBCFF2B00B584B8 /* Mine.storyboard */; };
+		C4DE96041CBB580F001B56D4 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DE96031CBB580F001B56D4 /* logo.png */; };
+		C4DE96081CBB7D87001B56D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE96071CBB7D87001B56D4 /* LoginViewController.m */; };
+		C4DE960B1CBB7DB8001B56D4 /* SendCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE960A1CBB7DB8001B56D4 /* SendCodeViewController.m */; };
+		C4DE960E1CBB806D001B56D4 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE960D1CBB806D001B56D4 /* RegistViewController.m */; };
+		C4DE96111CBB807B001B56D4 /* FindPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE96101CBB807B001B56D4 /* FindPwdViewController.m */; };
+		C4DE96141CBB94E7001B56D4 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DE96131CBB94E7001B56D4 /* MessageViewController.m */; };
 		C4E04B7E1CA0F72A00651651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B7D1CA0F72A00651651 /* main.m */; };
 		C4E04B811CA0F72A00651651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B801CA0F72A00651651 /* AppDelegate.m */; };
 		C4E04B841CA0F72A00651651 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B831CA0F72A00651651 /* ViewController.m */; };
@@ -15,6 +30,10 @@
 		C4E04B8C1CA0F72A00651651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */; };
 		C4E04B971CA0F72A00651651 /* CorepassZhiWeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04B961CA0F72A00651651 /* CorepassZhiWeiTests.m */; };
 		C4E04BA21CA0F72A00651651 /* CorepassZhiWeiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E04BA11CA0F72A00651651 /* CorepassZhiWeiUITests.m */; };
+		C4E04BB51CA0FF1E00651651 /* HomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04BB41CA0FF1E00651651 /* HomePage.storyboard */; };
+		C4E04BB71CA0FF2B00651651 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04BB61CA0FF2B00651651 /* Message.storyboard */; };
+		C4E04BB91CA0FF5400651651 /* Find.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E04BB81CA0FF5400651651 /* Find.storyboard */; };
+		C4E04BC01CA1526200651651 /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4E04BBF1CA1526200651651 /* head.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C40379A41CBC853A009F728A /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		C40379A51CBC853A009F728A /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; tabWidth = 5; };
+		C40379A71CBC8643009F728A /* FindTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTableViewController.h; sourceTree = "<group>"; };
+		C40379A81CBC8643009F728A /* FindTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindTableViewController.m; sourceTree = "<group>"; };
+		C40379AB1CBCA4B2009F728A /* MineViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewCollectionViewCell.h; sourceTree = "<group>"; };
+		C40379AC1CBCA4B2009F728A /* MineViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewCollectionViewCell.m; sourceTree = "<group>"; };
+		C40379AF1CBCB5AB009F728A /* CollectionViewCellClick.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CollectionViewCellClick.storyboard; sourceTree = "<group>"; };
+		C40379B11CBCB8F9009F728A /* MissionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MissionTableViewController.h; sourceTree = "<group>"; };
+		C40379B21CBCB8F9009F728A /* MissionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MissionTableViewController.m; sourceTree = "<group>"; };
+		C40379B41CBCD911009F728A /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		C40379B51CBCD911009F728A /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		C40379B71CBCF547009F728A /* Edit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Edit.storyboard; sourceTree = "<group>"; };
+		C440AF361CA2425A008ED3AF /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C4D396801CBCFF2B00B584B8 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		C4DE96031CBB580F001B56D4 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C4DE96061CBB7D87001B56D4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C4DE96071CBB7D87001B56D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C4DE96091CBB7DB8001B56D4 /* SendCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendCodeViewController.h; sourceTree = "<group>"; };
+		C4DE960A1CBB7DB8001B56D4 /* SendCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendCodeViewController.m; sourceTree = "<group>"; };
+		C4DE960C1CBB806D001B56D4 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		C4DE960D1CBB806D001B56D4 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		C4DE960F1CBB807B001B56D4 /* FindPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindPwdViewController.h; sourceTree = "<group>"; };
+		C4DE96101CBB807B001B56D4 /* FindPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPwdViewController.m; sourceTree = "<group>"; };
+		C4DE96121CBB94E7001B56D4 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		C4DE96131CBB94E7001B56D4 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		C4E04B791CA0F72A00651651 /* CorepassZhiWei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorepassZhiWei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E04B7D1CA0F72A00651651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E04B7F1CA0F72A00651651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +95,10 @@
 		C4E04B9D1CA0F72A00651651 /* CorepassZhiWeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorepassZhiWeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E04BA11CA0F72A00651651 /* CorepassZhiWeiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CorepassZhiWeiUITests.m; sourceTree = "<group>"; };
 		C4E04BA31CA0F72A00651651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E04BB41CA0FF1E00651651 /* HomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomePage.storyboard; sourceTree = "<group>"; };
+		C4E04BB61CA0FF2B00651651 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		C4E04BB81CA0FF5400651651 /* Find.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Find.storyboard; sourceTree = "<group>"; };
+		C4E04BBF1CA1526200651651 /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = head.jpg; path = ../head.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +126,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40379AA1CBCA473009F728A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C40379AB1CBCA4B2009F728A /* MineViewCollectionViewCell.h */,
+				C40379AC1CBCA4B2009F728A /* MineViewCollectionViewCell.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C40379AE1CBCB532009F728A /* CollectionViewCellClickSTB */ = {
+			isa = PBXGroup;
+			children = (
+				C40379AF1CBCB5AB009F728A /* CollectionViewCellClick.storyboard */,
+				C40379B11CBCB8F9009F728A /* MissionTableViewController.h */,
+				C40379B21CBCB8F9009F728A /* MissionTableViewController.m */,
+			);
+			name = CollectionViewCellClickSTB;
+			sourceTree = "<group>";
+		};
+		C40379B91CBCF553009F728A /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				C40379B71CBCF547009F728A /* Edit.storyboard */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		C440AF381CA24267008ED3AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C440AF361CA2425A008ED3AF /* Login.storyboard */,
+				C4DE96051CBB7C94001B56D4 /* ViewController */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		C4DE96051CBB7C94001B56D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE96061CBB7D87001B56D4 /* LoginViewController.h */,
+				C4DE96071CBB7D87001B56D4 /* LoginViewController.m */,
+				C4DE96091CBB7DB8001B56D4 /* SendCodeViewController.h */,
+				C4DE960A1CBB7DB8001B56D4 /* SendCodeViewController.m */,
+				C4DE960C1CBB806D001B56D4 /* RegistViewController.h */,
+				C4DE960D1CBB806D001B56D4 /* RegistViewController.m */,
+				C4DE960F1CBB807B001B56D4 /* FindPwdViewController.h */,
+				C4DE96101CBB807B001B56D4 /* FindPwdViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		C4E04B701CA0F72900651651 = {
 			isa = PBXGroup;
 			children = (
 				C4E04B7B1CA0F72A00651651 /* CorepassZhiWei */,
+				C4E04BC11CA1527F00651651 /* resource */,
 				C4E04B951CA0F72A00651651 /* CorepassZhiWeiTests */,
 				C4E04BA01CA0F72A00651651 /* CorepassZhiWeiUITests */,
 				C4E04B7A1CA0F72A00651651 /* Products */,
@@ -101,14 +201,12 @@
 		C4E04B7B1CA0F72A00651651 /* CorepassZhiWei */ = {
 			isa = PBXGroup;
 			children = (
-				C4E04B7F1CA0F72A00651651 /* AppDelegate.h */,
-				C4E04B801CA0F72A00651651 /* AppDelegate.m */,
-				C4E04B821CA0F72A00651651 /* ViewController.h */,
-				C4E04B831CA0F72A00651651 /* ViewController.m */,
-				C4E04B851CA0F72A00651651 /* Main.storyboard */,
-				C4E04B881CA0F72A00651651 /* Assets.xcassets */,
-				C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */,
-				C4E04B8D1CA0F72A00651651 /* Info.plist */,
+				C40379AA1CBCA473009F728A /* model */,
+				C4E04BB01CA0FE1400651651 /* HomePage */,
+				C4E04BB11CA0FE5100651651 /* Message */,
+				C4E04BB21CA0FE8000651651 /* Find */,
+				C4E04BB31CA0FE9500651651 /* Mine */,
+				C4E04BAF1CA0FDE700651651 /* Main */,
 				C4E04B7C1CA0F72A00651651 /* Supporting Files */,
 			);
 			path = CorepassZhiWei;
@@ -117,6 +215,9 @@
 		C4E04B7C1CA0F72A00651651 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4E04B881CA0F72A00651651 /* Assets.xcassets */,
+				C4E04B8A1CA0F72A00651651 /* LaunchScreen.storyboard */,
+				C4E04B8D1CA0F72A00651651 /* Info.plist */,
 				C4E04B7D1CA0F72A00651651 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +239,71 @@
 				C4E04BA31CA0F72A00651651 /* Info.plist */,
 			);
 			path = CorepassZhiWeiUITests;
+			sourceTree = "<group>";
+		};
+		C4E04BAF1CA0FDE700651651 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04B7F1CA0F72A00651651 /* AppDelegate.h */,
+				C4E04B801CA0F72A00651651 /* AppDelegate.m */,
+				C4E04B821CA0F72A00651651 /* ViewController.h */,
+				C4E04B831CA0F72A00651651 /* ViewController.m */,
+				C4E04B851CA0F72A00651651 /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C4E04BB01CA0FE1400651651 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04BB41CA0FF1E00651651 /* HomePage.storyboard */,
+				C40379B41CBCD911009F728A /* HomeTableViewController.h */,
+				C40379B51CBCD911009F728A /* HomeTableViewController.m */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		C4E04BB11CA0FE5100651651 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04BB61CA0FF2B00651651 /* Message.storyboard */,
+				C4DE96121CBB94E7001B56D4 /* MessageViewController.h */,
+				C4DE96131CBB94E7001B56D4 /* MessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		C4E04BB21CA0FE8000651651 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				C4E04BB81CA0FF5400651651 /* Find.storyboard */,
+				C40379A71CBC8643009F728A /* FindTableViewController.h */,
+				C40379A81CBC8643009F728A /* FindTableViewController.m */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		C4E04BB31CA0FE9500651651 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C4D396801CBCFF2B00B584B8 /* Mine.storyboard */,
+				C40379A41CBC853A009F728A /* MineTableViewController.h */,
+				C40379A51CBC853A009F728A /* MineTableViewController.m */,
+				C40379B91CBCF553009F728A /* Edit */,
+				C40379AE1CBCB532009F728A /* CollectionViewCellClickSTB */,
+				C440AF381CA24267008ED3AF /* Login */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		C4E04BC11CA1527F00651651 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				C4DE96031CBB580F001B56D4 /* logo.png */,
+				C4E04BBF1CA1526200651651 /* head.jpg */,
+			);
+			name = resource;
+			path = CorepassZhiWeiTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +409,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DE96041CBB580F001B56D4 /* logo.png in Resources */,
+				C4E04BB51CA0FF1E00651651 /* HomePage.storyboard in Resources */,
+				C4E04BC01CA1526200651651 /* head.jpg in Resources */,
 				C4E04B8C1CA0F72A00651651 /* LaunchScreen.storyboard in Resources */,
+				C40379B81CBCF547009F728A /* Edit.storyboard in Resources */,
+				C40379B01CBCB5AB009F728A /* CollectionViewCellClick.storyboard in Resources */,
+				C4E04BB71CA0FF2B00651651 /* Message.storyboard in Resources */,
+				C4D396811CBCFF2B00B584B8 /* Mine.storyboard in Resources */,
 				C4E04B891CA0F72A00651651 /* Assets.xcassets in Resources */,
 				C4E04B871CA0F72A00651651 /* Main.storyboard in Resources */,
+				C4E04BB91CA0FF5400651651 /* Find.storyboard in Resources */,
+				C440AF371CA2425A008ED3AF /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +445,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DE96081CBB7D87001B56D4 /* LoginViewController.m in Sources */,
+				C40379B61CBCD911009F728A /* HomeTableViewController.m in Sources */,
 				C4E04B841CA0F72A00651651 /* ViewController.m in Sources */,
+				C4DE960E1CBB806D001B56D4 /* RegistViewController.m in Sources */,
 				C4E04B811CA0F72A00651651 /* AppDelegate.m in Sources */,
+				C4DE960B1CBB7DB8001B56D4 /* SendCodeViewController.m in Sources */,
+				C4DE96111CBB807B001B56D4 /* FindPwdViewController.m in Sources */,
+				C40379A91CBC8643009F728A /* FindTableViewController.m in Sources */,
+				C40379AD1CBCA4B2009F728A /* MineViewCollectionViewCell.m in Sources */,
+				C40379B31CBCB8F9009F728A /* MissionTableViewController.m in Sources */,
+				C40379A61CBC853A009F728A /* MineTableViewController.m in Sources */,
+				C4DE96141CBB94E7001B56D4 /* MessageViewController.m in Sources */,
 				C4E04B7E1CA0F72A00651651 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CorepassZhiWei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CorepassZhiWei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.YANG.CorepassZhiWei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +683,7 @@
 				C4E04BA81CA0F72A00651651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E04BA91CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +692,7 @@
 				C4E04BAB1CA0F72A00651651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E04BAC1CA0F72A00651651 /* Build configuration list for PBXNativeTarget "CorepassZhiWeiUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +701,7 @@
 				C4E04BAE1CA0F72A00651651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
