@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fzD-rs-P4S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rxI-QF-Fal">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -38,32 +38,32 @@
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.29063316169999998" green="1" blue="0.36376014210000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.97016948319999996" green="0.96929493950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="2nw-aT-kdg" imageView="PWO-Mq-7Gh" rowHeight="103" style="IBUITableViewCellStyleDefault" id="RS1-8k-Yq7">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="103"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="2nw-aT-kdg" imageView="PWO-Mq-7Gh" rowHeight="79" style="IBUITableViewCellStyleDefault" id="RS1-8k-Yq7">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="79"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RS1-8k-Yq7" id="YCv-fQ-KiU">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="102"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="78"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="请先注册/登陆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2nw-aT-kdg">
-                                                    <rect key="frame" x="166" y="0.0" width="174" height="102"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="王小二" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2nw-aT-kdg">
+                                                    <rect key="frame" x="134" y="0.0" width="206" height="78"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="head.jpg" id="PWO-Mq-7Gh">
-                                                    <rect key="frame" x="15" y="0.0" width="136" height="102"/>
+                                                    <rect key="frame" x="15" y="0.0" width="104" height="78"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <segue destination="roD-rZ-bvE" kind="show" id="wDc-lM-s2n"/>
+                                            <segue destination="A20-C5-3BS" kind="show" id="SwE-6y-0xC"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -71,7 +71,7 @@
                             <tableViewSection id="uD8-A9-fKi">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="29" id="s8F-ah-9Oa">
-                                        <rect key="frame" x="0.0" y="147" width="375" height="29"/>
+                                        <rect key="frame" x="0.0" y="123" width="375" height="29"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s8F-ah-9Oa" id="Gym-MP-BYt">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="28"/>
@@ -80,7 +80,7 @@
                                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="skQ-Tg-fl2" style="IBUITableViewCellStyleDefault" id="XJ6-c3-HVv">
-                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="152" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XJ6-c3-HVv" id="Exg-J4-YK8">
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
@@ -96,39 +96,48 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="UYO-Rf-aj7" kind="show" id="W4Q-Vn-CJz"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="Tyq-w2-CBO">
-                                        <rect key="frame" x="0.0" y="220" width="375" height="94"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="Tyq-w2-CBO">
+                                        <rect key="frame" x="0.0" y="196" width="375" height="89"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tyq-w2-CBO" id="Smd-4j-JW4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="93"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPz-Fe-leW">
-                                                    <rect key="frame" x="125" y="0.0" width="125" height="100"/>
-                                                    <color key="backgroundColor" red="0.29063316169999998" green="1" blue="0.36376014210000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="充值"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPz-Fe-leW">
+                                                    <rect key="frame" x="125" y="0.0" width="125" height="88"/>
+                                                    <color key="backgroundColor" red="0.97016948319999996" green="0.96929493950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="充值">
+                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzJ-ul-5JC">
-                                                    <rect key="frame" x="250" y="0.0" width="125" height="100"/>
-                                                    <color key="backgroundColor" red="0.29063316169999998" green="1" blue="0.36376014210000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="提现"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WzJ-ul-5JC">
+                                                    <rect key="frame" x="250" y="0.0" width="125" height="88"/>
+                                                    <color key="backgroundColor" red="0.97016948319999996" green="0.96929493950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="提现">
+                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zhH-ch-tHb">
-                                                    <rect key="frame" x="258" y="32" width="36" height="36"/>
+                                                    <rect key="frame" x="258" y="27" width="36" height="36"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="18"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-c8-Nqa">
-                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="100"/>
-                                                    <color key="backgroundColor" red="0.29063316169999998" green="1" blue="0.36376014210000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <state key="normal" title="余额"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xua-c8-Nqa">
+                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="88"/>
+                                                    <color key="backgroundColor" red="0.97016948319999996" green="0.96929493950000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="余额">
+                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </state>
                                                 </button>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9VB-hT-0Ce">
-                                                    <rect key="frame" x="8" y="32" width="36" height="36"/>
+                                                    <rect key="frame" x="8" y="27" width="36" height="36"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="18"/>
@@ -136,7 +145,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CpJ-IW-Q0m">
-                                                    <rect key="frame" x="133" y="32" width="36" height="36"/>
+                                                    <rect key="frame" x="133" y="27" width="36" height="36"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="3"/>
@@ -163,7 +172,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="305" id="fPI-ao-uFs">
-                                        <rect key="frame" x="0.0" y="314" width="375" height="305"/>
+                                        <rect key="frame" x="0.0" y="285" width="375" height="305"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fPI-ao-uFs" id="Fgt-7p-2Jt">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="304"/>
@@ -241,7 +250,8 @@
                             <outlet property="delegate" destination="fzD-rs-P4S" id="ise-e7-6my"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="我的" id="Xjs-rK-FZM"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="wo 30  2x.png" id="Xjs-rK-FZM"/>
+                    <navigationItem key="navigationItem" id="woe-cW-3cd"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -252,7 +262,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZw-oU-YbN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-143.5" y="679.5"/>
+            <point key="canvasLocation" x="668.5" y="679.5"/>
         </scene>
         <!--Login-->
         <scene sceneID="NCy-IG-e1S">
@@ -260,7 +270,23 @@
                 <viewControllerPlaceholder storyboardName="Login" id="roD-rZ-bvE" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNl-iy-QAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="298.5" y="705"/>
+            <point key="canvasLocation" x="1177.5" y="654"/>
+        </scene>
+        <!--MyWallet-->
+        <scene sceneID="Afk-kg-81B">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyWallet" id="UYO-Rf-aj7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qnh-7s-jFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="589"/>
+        </scene>
+        <!--SelfInfo-->
+        <scene sceneID="hKT-d8-2XA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SelfInfo" id="A20-C5-3BS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ViM-6N-HYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="654"/>
         </scene>
         <!--Edit-->
         <scene sceneID="oXC-dL-Ka3">
@@ -268,10 +294,30 @@
                 <viewControllerPlaceholder storyboardName="Edit" id="rEp-x3-OQK" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDf-Zh-ga7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="298" y="653"/>
+            <point key="canvasLocation" x="1069" y="706"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QQf-Rl-mZ1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsU-fg-7fI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rxI-QF-Fal" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XGD-j3-y5t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fzD-rs-P4S" kind="relationship" relationship="rootViewController" id="Gef-V1-nMb"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-144" y="679"/>
         </scene>
     </scenes>
     <resources>
         <image name="head.jpg" width="1600" height="1200"/>
+        <image name="wo 30  2x.png" width="30" height="30"/>
     </resources>
 </document>

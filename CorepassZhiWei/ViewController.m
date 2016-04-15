@@ -9,8 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (nonatomic,assign)NSString *string1;
-@property (nonatomic,assign)NSString *string2;
+
 
 @end
 
@@ -21,11 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     //NSOperationQueue
     
-    self.string1= @"string1";
-    self.string2=self.string1;
-    self.string1=nil;
-    
-    NSLog(@"string2 = %@",self.string2);
 }
 
 - (void)didReceiveMemoryWarning {

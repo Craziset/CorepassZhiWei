@@ -7,8 +7,14 @@
 //
 
 #import "HomeTableViewController.h"
+#import "ZXScroll.h"
 
-@interface HomeTableViewController ()
+#define screenSize [UIScreen mainScreen].bounds.size
+#define topImageViewH 350
+
+@interface HomeTableViewController ()<ZXScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIView *ContView;
+@property (weak,nonatomic) UIPageControl *pageControl;
 
 @end
 
@@ -21,18 +27,53 @@
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    nil;
-}
 
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+//    UIView
+    
+//    self.tableView.contentInset = UIEdgeInsetsMake(10, 0, 0, 0);
+    
+    [self buildScrollView];
+    
+        
+}
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden=YES;
+    self.hidesBottomBarWhenPushed=YES;
+    
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    self.hidesBottomBarWhenPushed=NO;
+    self.navigationController.navigationBarHidden=NO;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark --ZXScrollViewDelegate
+- (void)pageControlReset:(NSInteger)aCount {
+    self.pageControl.currentPage = aCount;
+}
+
 #pragma mark - Table view data source
-
-
+//- (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+//{
+//    
+//    topImgView = [[UIImageView alloc] init];
+//    topImgView.backgroundColor=[UIColor greenColor];
+//    topImgView.image = [UIImage imageNamed:@"1.png"];
+//    topImgView.frame = CGRectMake(0, 0, screenSize.width, 40);
+//    topImgView.contentMode = UIViewContentModeScaleAspectFill;
+//    //return topImgView;
+////    }
+////    else
+////    {
+////        return nil;
+////    }
+//}
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -87,5 +128,31 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark --scrollView delegate
+//
+//-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+//    
+//    CGFloat down = - scrollView.contentOffset.y -(topImageViewH * 0.5);
+//    if (down < 0) {
+//        down = 0;
+//    }
+//    
+////    NSLog(@"---%f",down);
+//    CGRect frame = topImgView.frame;
+//    frame.size.height = down + topImageViewH;
+//    topImgView.frame = frame;
+//}
 
+#pragma mark --self method
+-(void)buildScrollView
+{
+    ZXScrollView *showMsgScrol=[[ZXScrollView alloc]initWithFrame:self.ContView.frame];
+    NSArray *imgAry=@[@"1.jpg",@"2.jpg",@"1.jpg",@"2.jpg"];
+    showMsgScrol.imageArray=imgAry;
+    showMsgScrol.pageDelegate=self;
+    showMsgScrol.isAutomatic=YES;
+    showMsgScrol.isCycle=YES;
+    [self.ContView addSubview:showMsgScrol];
+   
+}
 @end

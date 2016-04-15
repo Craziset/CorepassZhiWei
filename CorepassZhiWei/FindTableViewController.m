@@ -26,9 +26,16 @@
     _showCollection.dataSource=self;
         
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden=YES;
+    self.hidesBottomBarWhenPushed=YES;
+    
+}
 -(void)viewWillDisappear:(BOOL)animated
 {
-    self.tabBarController.hidesBottomBarWhenPushed=YES;
+    self.hidesBottomBarWhenPushed=NO;
+    self.navigationController.navigationBarHidden=NO;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -41,11 +48,7 @@
 
 #pragma mark - CollectionView data source
 
-- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
-{
-    
-    return UIEdgeInsetsMake(5, 5, 5, 5);
-}
+
 #pragma mark -CollectionView datasource
 //section
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView

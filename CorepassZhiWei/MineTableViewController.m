@@ -25,7 +25,7 @@
   
     
   UIView *stateView=[[UIView alloc]initWithFrame:CGRectMake(0, -20, self.view.frame.size.width, 20)];
-    stateView.backgroundColor=RGB(74, 255, 93, 1);
+    stateView.backgroundColor=RGB(245, 245, 255, 1);
     [self.view addSubview:stateView];
 
     
@@ -37,16 +37,18 @@
     _mineCollectionView.delegate=self;
     _mineCollectionView.dataSource=self;
 }
-
 -(void)viewWillAppear:(BOOL)animated
 {
     self.navigationController.navigationBarHidden=YES;
+    self.hidesBottomBarWhenPushed=YES;
+    
 }
 -(void)viewWillDisappear:(BOOL)animated
 {
-    self.tabBarController.hidesBottomBarWhenPushed=YES;
+    self.hidesBottomBarWhenPushed=NO;
     self.navigationController.navigationBarHidden=NO;
 }
+
 
 #pragma mark - collectionView data source
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section

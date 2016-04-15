@@ -22,9 +22,16 @@
     _msgTableVC.delegate=self;
     _msgTableVC.dataSource=self;
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.navigationBarHidden=YES;
+    self.hidesBottomBarWhenPushed=YES;
+    
+}
 -(void)viewWillDisappear:(BOOL)animated
 {
-    self.tabBarController.hidesBottomBarWhenPushed=YES;
+    self.hidesBottomBarWhenPushed=NO;
+    self.navigationController.navigationBarHidden=NO;
 }
 #pragma mark ---tableView data source
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

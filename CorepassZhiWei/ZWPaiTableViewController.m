@@ -1,18 +1,20 @@
 //
-//  MissionTableViewController.m
+//  ZWPaiTableViewController.m
 //  CorepassZhiWei
 //
-//  Created by 杨松辉 on 16/4/12.
+//  Created by 杨松辉 on 16/4/14.
 //  Copyright © 2016年 YANG. All rights reserved.
 //
 
-#import "MissionTableViewController.h"
+#import "ZWPaiTableViewController.h"
+#import "ZWPaiCollectionView.h"
 
-@interface MissionTableViewController ()
+@interface ZWPaiTableViewController ()
+@property (weak, nonatomic) IBOutlet ZWPaiCollectionView *MissionCollectionView;
 
 @end
 
-@implementation MissionTableViewController
+@implementation ZWPaiTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,33 +24,26 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    nil;
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
+
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
-}
 
 
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
     
-    cell.textLabel.text=self.str;
+    // Configure the cell...
     
     return cell;
 }
-
+*/
 
 /*
 // Override to support conditional editing of the table view.

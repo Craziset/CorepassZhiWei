@@ -13,8 +13,5 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
-@property (nonatomic,retain)NSString *string1;
-@property (nonatomic,copy)NSString *string2;
-
 @end
 

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lr2-6J-2xk">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--My Wallet Collection View Controller-->
+        <scene sceneID="Ptm-qt-JAD">
+            <objects>
+                <collectionViewController storyboardIdentifier="MyWalletCollectionViewController" id="lr2-6J-2xk" customClass="MyWalletCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" dataMode="prototypes" id="ime-Ju-3cW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oyJ-yE-tNd">
+                            <size key="itemSize" width="110" height="110"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" reuseIdentifier="myWalletCollectionViewCellID" id="LMA-Zg-HOb" customClass="MyWalletCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESO-ny-ziE">
+                                            <rect key="frame" x="16" y="0.0" width="78" height="78"/>
+                                            <color key="backgroundColor" red="0.2901960784" green="1" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="ESO-ny-ziE" secondAttribute="height" multiplier="1:1" id="IBy-7J-qLB"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="34"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="余额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VAO-de-zmA">
+                                            <rect key="frame" x="16" y="78" width="78" height="32"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="VAO-de-zmA" firstAttribute="top" secondItem="ESO-ny-ziE" secondAttribute="bottom" id="FJV-MO-yW0"/>
+                                    <constraint firstItem="ESO-ny-ziE" firstAttribute="centerY" secondItem="LMA-Zg-HOb" secondAttribute="centerY" id="WJN-Yq-dEC"/>
+                                    <constraint firstItem="ESO-ny-ziE" firstAttribute="width" secondItem="LMA-Zg-HOb" secondAttribute="width" multiplier="39:55" id="Zc3-yo-Oz2"/>
+                                    <constraint firstItem="VAO-de-zmA" firstAttribute="centerX" secondItem="LMA-Zg-HOb" secondAttribute="centerX" id="cwS-mm-08v"/>
+                                    <constraint firstItem="ESO-ny-ziE" firstAttribute="top" secondItem="LMA-Zg-HOb" secondAttribute="topMargin" constant="-8" id="h7b-Qe-rIx"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="VAO-de-zmA" secondAttribute="bottom" constant="-8" id="kLp-BV-Frk"/>
+                                    <constraint firstItem="ESO-ny-ziE" firstAttribute="centerX" secondItem="LMA-Zg-HOb" secondAttribute="centerX" id="voi-Uh-CXS"/>
+                                    <constraint firstItem="VAO-de-zmA" firstAttribute="width" secondItem="ESO-ny-ziE" secondAttribute="width" id="w7X-cw-mAe"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="WJN-Yq-dEC"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="myWalletBtn" destination="ESO-ny-ziE" id="Qk8-Ie-pck"/>
+                                    <outlet property="myWalletLabel" destination="VAO-de-zmA" id="A2P-aX-Dmm"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="lr2-6J-2xk" id="hkv-6c-lT4"/>
+                            <outlet property="delegate" destination="lr2-6J-2xk" id="k86-1c-Xoz"/>
+                        </connections>
+                    </collectionView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdE-p6-hJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="361.5" y="111.5"/>
+        </scene>
+    </scenes>
+</document>

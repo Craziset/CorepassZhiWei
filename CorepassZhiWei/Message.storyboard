@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9fJ-i3-0X3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="GYV-be-jl7">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -115,7 +115,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="信息" badgeValue="3" id="OkY-DS-Abv"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="消息" id="N5w-Kc-jKd"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -127,7 +126,30 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wak-Hr-70S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="359.5" y="339.5"/>
+            <point key="canvasLocation" x="1171.5" y="339.5"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="fIf-6n-zsQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GYV-be-jl7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="消息" image="xiao xi 30  2x.png" badgeValue="3" id="OkY-DS-Abv"/>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nc7-Vm-JoE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9fJ-i3-0X3" kind="relationship" relationship="rootViewController" id="fo0-5u-KMO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQ5-M4-C7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="339"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="xiao xi 30  2x.png" width="30" height="30"/>
+    </resources>
 </document>
