@@ -7,6 +7,7 @@
 //
 
 #import "FindTableViewController.h"
+#define RGB(r,g,b,a)  [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:r]
 
 @interface FindTableViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 
@@ -24,19 +25,21 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     _showCollection.delegate=self;
     _showCollection.dataSource=self;
-        
+    UIView *stateView=[[UIView alloc]initWithFrame:CGRectMake(0, -20, self.view.frame.size.width, 20)];
+    stateView.backgroundColor=RGB(201, 201, 206, 1);
+    [self.view addSubview:stateView];
 }
--(void)viewWillAppear:(BOOL)animated
-{
-    self.navigationController.navigationBarHidden=YES;
-    self.hidesBottomBarWhenPushed=YES;
-    
-}
--(void)viewWillDisappear:(BOOL)animated
-{
-    self.hidesBottomBarWhenPushed=NO;
-    self.navigationController.navigationBarHidden=NO;
-}
+//-(void)viewWillAppear:(BOOL)animated
+//{
+//    self.navigationController.navigationBarHidden=YES;
+//    self.hidesBottomBarWhenPushed=YES;
+//    
+//}
+//-(void)viewWillDisappear:(BOOL)animated
+//{
+//    self.hidesBottomBarWhenPushed=NO;
+//    self.navigationController.navigationBarHidden=NO;
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

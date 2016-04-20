@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeTableViewController : UITableViewController
-
+@property(nonatomic,copy)NSString *cityName;
 @end

@@ -37,17 +37,17 @@
     _mineCollectionView.delegate=self;
     _mineCollectionView.dataSource=self;
 }
--(void)viewWillAppear:(BOOL)animated
-{
-    self.navigationController.navigationBarHidden=YES;
-    self.hidesBottomBarWhenPushed=YES;
-    
-}
--(void)viewWillDisappear:(BOOL)animated
-{
-    self.hidesBottomBarWhenPushed=NO;
-    self.navigationController.navigationBarHidden=NO;
-}
+//-(void)viewWillAppear:(BOOL)animated
+//{
+//    self.navigationController.navigationBarHidden=YES;
+//    self.hidesBottomBarWhenPushed=YES;
+//    
+//}
+//-(void)viewWillDisappear:(BOOL)animated
+//{
+//    self.hidesBottomBarWhenPushed=NO;
+//    self.navigationController.navigationBarHidden=NO;
+//}
 
 
 #pragma mark - collectionView data source

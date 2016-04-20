@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xVs-Me-oxg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YV7-c0-eTh">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--Find Table View Controller-->
+        <!--发现-->
         <scene sceneID="UbM-1T-nwE">
             <objects>
                 <tableViewController storyboardIdentifier="FindTableViewController" id="YV7-c0-eTh" customClass="FindTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="j9B-zu-03k">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="j9B-zu-03k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.78823529411764703" green="0.78823529411764703" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="" id="Ht7-GX-bEV">
                                 <cells>
@@ -35,6 +36,7 @@
                                             <constraint firstItem="4Ry-uH-vlN" firstAttribute="centerY" secondItem="zh6-BL-KT3" secondAttribute="centerY" id="UEX-rF-avQ"/>
                                             <constraint firstItem="4Ry-uH-vlN" firstAttribute="height" secondItem="zh6-BL-KT3" secondAttribute="height" id="mZn-PQ-Yhr"/>
                                         </constraints>
+                                        <inset key="separatorInset" minX="400" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="Nix-Ik-trX">
                                         <rect key="frame" x="0.0" y="64" width="375" height="119"/>
@@ -180,9 +182,23 @@
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="智维网案例" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5R-JK-Bzl">
+                                                                        <rect key="frame" x="10" y="49" width="51" height="21"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ex0-J1-2gu">
+                                                                        <rect key="frame" x="8" y="8" width="57" height="33"/>
+                                                                    </imageView>
+                                                                </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <connections>
+                                                                <segue destination="zKz-Rt-1tT" kind="show" id="NAI-pl-bDh"/>
+                                                            </connections>
                                                         </collectionViewCell>
                                                     </cells>
                                                 </collectionView>
@@ -197,6 +213,7 @@
                             <outlet property="delegate" destination="YV7-c0-eTh" id="7Q7-Hw-Kaj"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="发现" image="fa xian 30  2x.png" id="2Nx-tX-4MD"/>
                     <navigationItem key="navigationItem" id="CZS-sW-lxg"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -209,29 +226,38 @@
             </objects>
             <point key="canvasLocation" x="1652.5" y="363.5"/>
         </scene>
-        <!--发现-->
-        <scene sceneID="yds-7r-A8N">
+        <!--Table View Controller-->
+        <scene sceneID="56g-iw-Z57">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xVs-Me-oxg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="发现" image="fa xian 30  2x.png" badgeValue="1" id="67b-6t-EzN"/>
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bHR-1w-4hI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="YV7-c0-eTh" kind="relationship" relationship="rootViewController" id="7Ym-uJ-oIB"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wl9-ab-Orh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="zKz-Rt-1tT" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cD4-js-aGk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="IVV-Lm-CGK">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IVV-Lm-CGK" id="tOU-sQ-d6H">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zKz-Rt-1tT" id="M52-21-0cj"/>
+                            <outlet property="delegate" destination="zKz-Rt-1tT" id="Gio-En-C9Y"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9HJ-GK-3vN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840" y="363"/>
+            <point key="canvasLocation" x="2186" y="342"/>
         </scene>
     </scenes>
     <resources>
         <image name="11.jpg" width="500" height="621"/>
         <image name="fa xian 30  2x.png" width="30" height="30"/>
+        <image name="logo.png" width="235" height="110"/>
     </resources>
 </document>

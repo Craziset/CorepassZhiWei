@@ -17,9 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
+//    NSLog(@"%@",self.viewControllers);
+//        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(hidBar) name:@"hidnavigationBar" object:nil];
 }
-
+//-(void)hidBar
+//{
+//    for (UIViewController *vc in self.viewControllers)
+//    {
+//        if ([vc performSelector:@selector(viewWillAppear:)]) {
+//            vc.navigationController.navigationBarHidden=NO;
+//        }else if ([vc performSelector:@selector(viewWillDisappear:)]) {
+//            vc.navigationController.navigationBarHidden=YES;
+//        }
+//    }
+// 
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

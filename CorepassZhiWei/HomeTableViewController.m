@@ -7,7 +7,9 @@
 //
 
 #import "HomeTableViewController.h"
+
 #import "ZXScroll.h"
+#import "AnotherSearchViewController.h"
 
 #define screenSize [UIScreen mainScreen].bounds.size
 #define topImageViewH 350
@@ -15,6 +17,7 @@
 @interface HomeTableViewController ()<ZXScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UIView *ContView;
 @property (weak,nonatomic) UIPageControl *pageControl;
+@property (weak, nonatomic) IBOutlet UIButton *cityNameBtn;
 
 @end
 
@@ -23,30 +26,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-//    UIView
-    
-//    self.tableView.contentInset = UIEdgeInsetsMake(10, 0, 0, 0);
     
     [self buildScrollView];
     
         
 }
+
 -(void)viewWillAppear:(BOOL)animated
 {
-    self.navigationController.navigationBarHidden=YES;
-    self.hidesBottomBarWhenPushed=YES;
     
-}
--(void)viewWillDisappear:(BOOL)animated
-{
-    self.hidesBottomBarWhenPushed=NO;
-    self.navigationController.navigationBarHidden=NO;
+   
+        if (self.cityName!=nil) {
+        [self.cityNameBtn setTitle:self.cityName forState:UIControlStateNormal];
+
+    }
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -155,4 +150,17 @@
     [self.ContView addSubview:showMsgScrol];
    
 }
+- (IBAction)selectCityClick:(id)sender {
+    AnotherSearchViewController *another = [[AnotherSearchViewController alloc]init];
+    another.homeTableVC=self;
+    [self.navigationController pushViewController:another animated:YES];
+
+}
+- (IBAction)Jump:(id)sender {
+    AnotherSearchViewController *another = [[AnotherSearchViewController alloc]init];
+    another.homeTableVC=self;
+    [self.navigationController pushViewController:another animated:YES];
+}
+
+
 @end
